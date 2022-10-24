@@ -1,0 +1,13 @@
+{
+    "name": "YouTube Assistant",
+    "version": "1.0",
+    "description": "Keyword Search ",
+    "minimum_chrome_version": "23",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": "logo.png",
+        "default_popup": "index.html"
+    },
+    "permissions": ["activeTab","storage"]
+    }
+    

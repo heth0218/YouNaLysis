@@ -1,0 +1,21 @@
+npm init 
+{
+  "name": "youtube-entity-recommendation-api",
+  "version": "1.0.0",
+  "description": "YouTube Entity Recommendation API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mihir Haresh Shah",
+  "license": "MIT"
+}
+package.json: {
+    "scripts": {
+    "start": "SET NODE_ENV=production && node server.js",
+    "dev": "nodemon server"
+  },
+}
+npm install express dotenv
+npm install -D nodemon
+npm install mongoose
